@@ -1,0 +1,27 @@
+{
+  "name": "take_home_backend",
+  "version": "1.0.0",
+  "description": "Take home assessment for GNM",
+  "main": "src/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "env-cmd -f ./src/config/dev.env nodemon src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/staticparsley/take_home_backend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/staticparsley/take_home_backend/issues"
+  },
+  "homepage": "https://github.com/staticparsley/take_home_backend#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "env-cmd": "^10.0.1",
+    "express": "^4.17.1",
+    "moment": "^2.24.0",
+    "mongoose": "^5.6.11"
+  }
+}
