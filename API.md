@@ -22,7 +22,8 @@ optional:
 EXAMPLE:  
 <pre><code>{
   "videoName": "Cute Puppies",
-"brand" : "Awwnimals"
+"brand" : "Awwnimals",
+"publishDate": "2019-09-03 05:37:39.886Z"
 }</code></pre>  
 		
 # track a video view
