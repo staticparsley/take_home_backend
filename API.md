@@ -38,5 +38,7 @@ This will return the data on that video as well as a `ViewsSince` field if a dat
 EXAMPLE:  
 <pre><code>GET /api/analytics/5d6dda33a29a3a3d00a46aa0</code></pre>  
 
-
+<pre><code>{
+	"date" : "2019-09-03 05:37:39.886Z"
+}</code></pre>  
 
