@@ -10,13 +10,14 @@ http request -> router -> model -> mongoDB
 
 this request expects a JSON body with 3 fields:  
 
-	`videoName` is a string ( name of video ). 
+	"videoName" is a string ( name of video ). 
 	
-	`brand` is a string ( name of brand ). 
+	"brand" is a string ( name of brand ). 
 	
 optional:  
  
-		`date`: is a Date in ISO format ( when the video was published). Will default to the currrent time if not provided.
+		"date": is a Date in ISO format ( when the video was published).  
+		Will default to the currrent time if not provided.
 		
 EXAMPLE:  
 <pre><code>{
